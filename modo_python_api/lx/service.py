@@ -2,6 +2,7 @@
  MODO Build #569521
 '''
 
+
 class AudioAnim:
     def Audio(self):
         '''Audio object = Audio()'''
@@ -52,7 +53,6 @@ class AudioAnim:
         pass
 
 
-
 class Cache:
     def GetData(self, name, key):
         '''Unknown object = GetData(string name,integer key)'''
@@ -77,7 +77,6 @@ class Cache:
     def SetData(self, name, key, data):
         '''SetData(string name,integer key,object data)'''
         pass
-
 
 
 class ChannelUI:
@@ -114,7 +113,6 @@ class ChannelUI:
         pass
 
 
-
 class ColorMapping:
     def ConfigCount(self):
         '''integer = ConfigCount()'''
@@ -143,7 +141,6 @@ class ColorMapping:
     def RegisterColorspaceForConfig(self, configName, colorspaceName):
         '''RegisterColorspaceForConfig(string configName,string colorspaceName)'''
         pass
-
 
 
 class Command:
@@ -432,7 +429,6 @@ class Command:
         pass
 
 
-
 class Deformer:
     def DeformEltToItem(self, elt):
         '''object = DeformEltToItem(id elt)'''
@@ -477,7 +473,6 @@ class Deformer:
     def ScriptQuery(self):
         '''Unknown object = ScriptQuery()'''
         pass
-
 
 
 class DirCache:
@@ -562,7 +557,6 @@ class DirCache:
         pass
 
 
-
 class Drop:
     def Action(self):
         '''(string serverName,integer actionCode) = Action()'''
@@ -579,7 +573,6 @@ class Drop:
     def Source(self):
         '''(string sourceType,Unknown object) = Source()'''
         pass
-
 
 
 class File:
@@ -708,7 +701,6 @@ class File:
         pass
 
 
-
 class GUID:
     def Class(self, guid):
         '''string = Class(string guid)'''
@@ -733,7 +725,6 @@ class GUID:
     def Translate(self, guidStr):
         '''string = Translate(string guidStr)'''
         pass
-
 
 
 class Host:
@@ -786,7 +777,6 @@ class Host:
         pass
 
 
-
 class IO:
     def OpenBlockStore(self, filename, format, flags):
         '''(boolean,BlockStore object) = OpenBlockStore(string filename,string format,integer flags)'''
@@ -803,7 +793,6 @@ class IO:
     def SetOptions(self, options):
         '''SetOptions(object options)'''
         pass
-
 
 
 class Image:
@@ -868,7 +857,6 @@ class Image:
         pass
 
 
-
 class ImageMonitor:
     def RefreshViews(self, imageSource, immediate):
         '''RefreshViews(string imageSource,integer immediate)'''
@@ -898,7 +886,8 @@ class ImageMonitor:
         '''string name = ServerUserNameByIndex(integer index)'''
         pass
 
-    def SetImage(self, imageSource, image, frameBuffer, bufferIndex, x1, y1, x2, y2, imageProc, processedThumbnail):
+    def SetImage(self, imageSource, image, frameBuffer, bufferIndex, x1, y1, x2, y2, imageProc,
+                 processedThumbnail):
         '''SetImage(string imageSource,object image,object frameBuffer,integer bufferIndex,float x1,float y1,float x2,float y2,object imageProc,object processedThumbnail)'''
         pass
 
@@ -915,7 +904,6 @@ class ImageMonitor:
         pass
 
 
-
 class ImageProcessing:
     def Create(self):
         '''ImageProcessing object = Create()'''
@@ -924,7 +912,6 @@ class ImageProcessing:
     def ScriptQuery(self):
         '''Unknown object = ScriptQuery()'''
         pass
-
 
 
 class InputMap:
@@ -1117,7 +1104,6 @@ class InputMap:
         pass
 
 
-
 class Layer:
     def Bounds(self, index):
         '''(vector min,vector max) = Bounds(integer index)'''
@@ -1308,7 +1294,6 @@ class Layer:
         pass
 
 
-
 class Listener:
     def AddListener(self, object):
         '''AddListener(object object)'''
@@ -1321,7 +1306,6 @@ class Listener:
     def ScriptQuery(self):
         '''Unknown object = ScriptQuery()'''
         pass
-
 
 
 class Log:
@@ -1422,7 +1406,6 @@ class Log:
         pass
 
 
-
 class Mesh:
     def ConvertMesh(self, triGroupObj, meshObj):
         '''ConvertMesh(object triGroupObj,object meshObj)'''
@@ -1513,7 +1496,6 @@ class Mesh:
         pass
 
 
-
 class Message:
     def Allocate(self):
         '''Message object = Allocate()'''
@@ -1568,7 +1550,6 @@ class Message:
         pass
 
 
-
 class Network:
     def OneOffHostListAdd(self, hostname, ip, port):
         '''OneOffHostListAdd(string hostname,integer ip,integer port)'''
@@ -1581,7 +1562,6 @@ class Network:
     def ScriptQuery(self):
         '''Unknown object = ScriptQuery()'''
         pass
-
 
 
 class Nodal:
@@ -1618,7 +1598,6 @@ class Nodal:
         pass
 
 
-
 class NotifySys:
     def ByIndex(self, index):
         '''Notifier object = ByIndex(integer index)'''
@@ -1645,7 +1624,6 @@ class NotifySys:
         pass
 
 
-
 class Packet:
     def AddPacket(self, vtype, name, flags):
         '''AddPacket(object vtype,string name,integer flags)'''
@@ -1670,7 +1648,6 @@ class Packet:
     def ScriptQuery(self):
         '''Unknown object = ScriptQuery()'''
         pass
-
 
 
 class Particle:
@@ -1715,7 +1692,6 @@ class Particle:
         pass
 
 
-
 class Persistence:
     def AddValue(self, typeName):
         '''AddValue(string typeName)'''
@@ -1736,7 +1712,6 @@ class Persistence:
     def Start(self, name, type):
         '''Start(string name,integer type)'''
         pass
-
 
 
 class Platform:
@@ -1861,7 +1836,6 @@ class Platform:
         pass
 
 
-
 class PresetBrowser:
     def GetSpecialSelModePath(self, identifier):
         '''string = GetSpecialSelModePath(string identifier)'''
@@ -1920,7 +1894,6 @@ class PresetBrowser:
         pass
 
 
-
 class PresetDestination:
     def ApplyMeshPresetToMeshPD(self, predest, filepath):
         '''ApplyMeshPresetToMeshPD(object predest,string filepath)'''
@@ -1947,7 +1920,6 @@ class PresetDestination:
         pass
 
 
-
 class Preview:
     def CreatePreview(self):
         '''Preview object = CreatePreview()'''
@@ -1956,7 +1928,6 @@ class Preview:
     def GetMeshPreview(self, item, width, height):
         '''Unknown object = GetMeshPreview(object item,integer width,integer height)'''
         pass
-
 
 
 class Render:
@@ -2085,12 +2056,10 @@ class Render:
         pass
 
 
-
 class RenderCache:
     def CreateRenderCache(self, createFlags):
         '''RenderCache object = CreateRenderCache(integer createFlags)'''
         pass
-
 
 
 class Scene:
@@ -2203,7 +2172,6 @@ class Scene:
         pass
 
 
-
 class ScriptSys:
     def ByIndex(self, index):
         '''ScriptManager object = ByIndex(integer index)'''
@@ -2248,7 +2216,6 @@ class ScriptSys:
     def UserValueLookup(self, name):
         '''UserValue object = UserValueLookup(string name)'''
         pass
-
 
 
 class Selection:
@@ -2341,7 +2308,6 @@ class Selection:
         pass
 
 
-
 class Shader:
     def CollectMaterials(self, collection):
         '''CollectMaterials(object collection)'''
@@ -2386,7 +2352,6 @@ class Shader:
     def SquareToCircle(self, x, y):
         '''SquareToCircle(float[] x,float[] y)'''
         pass
-
 
 
 class StdDialog:
@@ -2451,7 +2416,6 @@ class StdDialog:
         pass
 
 
-
 class Tableau:
     def AllocVertex(self):
         '''TableauVertex object = AllocVertex()'''
@@ -2466,12 +2430,10 @@ class Tableau:
         pass
 
 
-
 class TextEncoding:
     def Allocate(self):
         '''TextEncoding object = Allocate()'''
         pass
-
 
 
 class Thread:
@@ -2520,7 +2482,6 @@ class Thread:
         pass
 
 
-
 class Undo:
     def Apply(self, undo):
         '''Apply(object undo)'''
@@ -2537,7 +2498,6 @@ class Undo:
     def State(self):
         '''integer = State()'''
         pass
-
 
 
 class Value:
@@ -2590,7 +2550,6 @@ class Value:
         pass
 
 
-
 class Variation:
     def InvalidateItem(self, item):
         '''InvalidateItem(object item)'''
@@ -2599,7 +2558,6 @@ class Variation:
     def ScriptQuery(self):
         '''Unknown object = ScriptQuery()'''
         pass
-
 
 
 class VertexFeature:
@@ -2638,7 +2596,6 @@ class VertexFeature:
     def VectorType(self, ident):
         '''string vecType = VectorType(string ident)'''
         pass
-
 
 
 class View3Dport:
@@ -2697,6 +2654,3 @@ class View3Dport:
     def View(self, index):
         '''Unknown object = View(integer index)'''
         pass
-
-
-

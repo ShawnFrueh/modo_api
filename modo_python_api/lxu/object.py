@@ -2,6 +2,7 @@
  MODO Build #569521
 '''
 
+
 class ActionClip:
     def Action(self, time):
         '''ChannelRead object = Action(float time)'''
@@ -40,7 +41,6 @@ class ActionClip:
         pass
 
 
-
 class ActionLayerPacketTranslation:
     def Index(self, packet):
         '''integer = Index(pointer packet)'''
@@ -63,7 +63,6 @@ class ActionLayerPacketTranslation:
         pass
 
 
-
 class ActionListener:
     def ActionChannelConstantChange(self, item, channel):
         '''ActionChannelConstantChange(object item,integer channel)'''
@@ -84,7 +83,6 @@ class ActionListener:
     def test(self):
         '''bool = test()'''
         pass
-
 
 
 class AddChannel:
@@ -137,7 +135,6 @@ class AddChannel:
         pass
 
 
-
 class AddDropAction:
     def AddAction(self, action, message):
         '''AddAction(integer action,string message)'''
@@ -154,7 +151,6 @@ class AddDropAction:
     def test(self):
         '''bool = test()'''
         pass
-
 
 
 class AdjustTool:
@@ -195,7 +191,6 @@ class AdjustTool:
         pass
 
 
-
 class AnimListener:
     def EnterSetup(self):
         '''EnterSetup()'''
@@ -234,7 +229,6 @@ class AnimListener:
         pass
 
 
-
 class AppActiveListener:
     def IsNowActive(self, isActive):
         '''IsNowActive(integer isActive)'''
@@ -247,7 +241,6 @@ class AppActiveListener:
     def test(self):
         '''bool = test()'''
         pass
-
 
 
 class AsyncMonitorInfo:
@@ -292,7 +285,6 @@ class AsyncMonitorInfo:
         pass
 
 
-
 class AsyncMonitorSystem:
     def ByIndex(self, index):
         '''Unknown object = ByIndex(integer index)'''
@@ -313,7 +305,6 @@ class AsyncMonitorSystem:
     def test(self):
         '''bool = test()'''
         pass
-
 
 
 class AttrSequence:
@@ -340,7 +331,6 @@ class AttrSequence:
     def test(self):
         '''bool = test()'''
         pass
-
 
 
 class Attributes:
@@ -414,7 +404,6 @@ class Attributes:
         pass
 
 
-
 class AttributesUI:
     def DisableMsg(self, index, message):
         '''DisableMsg(integer index,object message)'''
@@ -435,7 +424,6 @@ class AttributesUI:
     def test(self):
         '''bool = test()'''
         pass
-
 
 
 class Audio:
@@ -496,7 +484,6 @@ class Audio:
         pass
 
 
-
 class AudioDevice:
     def Handle(self, audio):
         '''AudioHandle object = Handle(object audio)'''
@@ -525,7 +512,6 @@ class AudioDevice:
     def test(self):
         '''bool = test()'''
         pass
-
 
 
 class AudioHandle:
@@ -594,7 +580,6 @@ class AudioHandle:
         pass
 
 
-
 class AudioLoaderTarget:
     def SetChannels(self, channels):
         '''SetChannels(integer channels)'''
@@ -619,7 +604,6 @@ class AudioLoaderTarget:
     def test(self):
         '''bool = test()'''
         pass
-
 
 
 class AudioWrite:
@@ -652,7 +636,6 @@ class AudioWrite:
         pass
 
 
-
 class AutoSaveListener:
     def AutoSaveNow(self):
         '''AutoSaveNow()'''
@@ -665,7 +648,6 @@ class AutoSaveListener:
     def test(self):
         '''bool = test()'''
         pass
-
 
 
 class BagGenerator:
@@ -686,7 +668,6 @@ class BagGenerator:
         pass
 
 
-
 class BasePathAddDest:
     def AddBasePath(self, setName, path):
         '''AddBasePath(string setName,string path)'''
@@ -699,7 +680,6 @@ class BasePathAddDest:
     def test(self):
         '''bool = test()'''
         pass
-
 
 
 class BlockRead:
@@ -772,7 +752,6 @@ class BlockRead:
         pass
 
 
-
 class BlockStore:
     def AllocBookmark(self):
         '''id loc = AllocBookmark()'''
@@ -835,7 +814,6 @@ class BlockStore:
         pass
 
 
-
 class BlockWrite:
     def Depth(self):
         '''integer = Depth()'''
@@ -896,7 +874,6 @@ class BlockWrite:
     def test(self):
         '''bool = test()'''
         pass
-
 
 
 class Buffer:
@@ -985,7 +962,6 @@ class Buffer:
         pass
 
 
-
 class CacheData:
     def Size(self):
         '''integer = Size()'''
@@ -998,7 +974,6 @@ class CacheData:
     def test(self):
         '''bool = test()'''
         pass
-
 
 
 class CenterPacketTranslation:
@@ -1019,7 +994,6 @@ class CenterPacketTranslation:
         pass
 
 
-
 class ChannelDest:
     def Channel(self):
         '''Value object = Channel()'''
@@ -1038,7 +1012,6 @@ class ChannelDest:
         pass
 
 
-
 class ChannelDropPreview:
     def MarkChannel(self):
         '''integer = MarkChannel()'''
@@ -1051,7 +1024,6 @@ class ChannelDropPreview:
     def test(self):
         '''bool = test()'''
         pass
-
 
 
 class ChannelGraph:
@@ -1092,7 +1064,6 @@ class ChannelGraph:
         pass
 
 
-
 class ChannelPacketTranslation:
     def Index(self, packet):
         '''integer = Index(pointer packet)'''
@@ -1113,7 +1084,6 @@ class ChannelPacketTranslation:
     def test(self):
         '''bool = test()'''
         pass
-
 
 
 class ChannelRead:
@@ -1184,7 +1154,6 @@ class ChannelRead:
         pass
 
 
-
 class ChannelUI:
     def Cookie(self, channelName, requestedFor):
         '''string cookie = Cookie(string channelName,string requestedFor)'''
@@ -1229,7 +1198,6 @@ class ChannelUI:
     def test(self):
         '''bool = test()'''
         pass
-
 
 
 class ChannelWrite:
@@ -1298,7 +1266,6 @@ class ChannelWrite:
     def test(self):
         '''bool = test()'''
         pass
-
 
 
 class CmdSysListener:
@@ -1391,7 +1358,6 @@ class CmdSysListener:
         pass
 
 
-
 class Color:
     def Alpha(self):
         '''float alpha = Alpha()'''
@@ -1418,7 +1384,6 @@ class Color:
         pass
 
 
-
 class ColorDialog:
     def DoDialog(self, title, stops, gamma):
         '''float rgb = DoDialog(string title,float stops,float gamma)'''
@@ -1431,7 +1396,6 @@ class ColorDialog:
     def test(self):
         '''bool = test()'''
         pass
-
 
 
 class ColorMapping:
@@ -1466,7 +1430,6 @@ class ColorMapping:
     def test(self):
         '''bool = test()'''
         pass
-
 
 
 class ColorModel:
@@ -1523,7 +1486,6 @@ class ColorModel:
         pass
 
 
-
 class ColorPreDest:
     def Apply(self):
         '''Apply()'''
@@ -1544,7 +1506,6 @@ class ColorPreDest:
     def test(self):
         '''bool = test()'''
         pass
-
 
 
 class Command:
@@ -1729,7 +1690,6 @@ class Command:
         pass
 
 
-
 class CommandDBHelp:
     def DBHelp(self):
         '''string dbhelp = DBHelp()'''
@@ -1748,7 +1708,6 @@ class CommandDBHelp:
         pass
 
 
-
 class CommandEvent:
     def Event(self, flags):
         '''Event(integer flags)'''
@@ -1761,7 +1720,6 @@ class CommandEvent:
     def test(self):
         '''bool = test()'''
         pass
-
 
 
 class CompShader:
@@ -1796,7 +1754,6 @@ class CompShader:
     def test(self):
         '''bool = test()'''
         pass
-
 
 
 class Curve:
@@ -1885,7 +1842,6 @@ class Curve:
         pass
 
 
-
 class CurveGroup:
     def ByIndex(self, index):
         '''Curve object = ByIndex(integer index)'''
@@ -1906,7 +1862,6 @@ class CurveGroup:
     def test(self):
         '''bool = test()'''
         pass
-
 
 
 class CustomMaterial:
@@ -1971,7 +1926,6 @@ class CustomMaterial:
         pass
 
 
-
 class CustomPane:
     def GetIdentifier(self):
         '''string ident = GetIdentifier()'''
@@ -1988,7 +1942,6 @@ class CustomPane:
     def test(self):
         '''bool = test()'''
         pass
-
 
 
 class CustomView:
@@ -2015,7 +1968,6 @@ class CustomView:
     def test(self):
         '''bool = test()'''
         pass
-
 
 
 class DTBBadgeOverride:
@@ -2056,7 +2008,6 @@ class DTBBadgeOverride:
         pass
 
 
-
 class DTBGroupSortOverride:
     def SetArguments(self, args):
         '''SetArguments(string args)'''
@@ -2073,7 +2024,6 @@ class DTBGroupSortOverride:
     def test(self):
         '''bool = test()'''
         pass
-
 
 
 class Deformation:
@@ -2100,7 +2050,6 @@ class Deformation:
     def test(self):
         '''bool = test()'''
         pass
-
 
 
 class Deformer:
@@ -2141,7 +2090,6 @@ class Deformer:
         pass
 
 
-
 class DirBrowserBasePathEntryDest:
     def OrdinalAfter(self):
         '''string ordinal = OrdinalAfter()'''
@@ -2162,7 +2110,6 @@ class DirBrowserBasePathEntryDest:
     def test(self):
         '''bool = test()'''
         pass
-
 
 
 class DirCacheEntry:
@@ -2323,7 +2270,6 @@ class DirCacheEntry:
         pass
 
 
-
 class DirCacheFileMetrics:
     def Flags(self):
         '''integer flags = Flags()'''
@@ -2346,7 +2292,6 @@ class DirCacheFileMetrics:
         pass
 
 
-
 class DirCacheGridPosDest:
     def GridPos(self):
         '''(DirCacheEntry object,integer x,integer y) = GridPos()'''
@@ -2361,7 +2306,6 @@ class DirCacheGridPosDest:
         pass
 
 
-
 class DirCacheManualOrderDest:
     def BetweenPaths(self, asPaths):
         '''(DirCacheEntry object,string nameBefore,string nameAfter) = BetweenPaths(integer asPaths)'''
@@ -2374,7 +2318,6 @@ class DirCacheManualOrderDest:
     def test(self):
         '''bool = test()'''
         pass
-
 
 
 class DirEntryThumbAsync:
@@ -2397,7 +2340,6 @@ class DirEntryThumbAsync:
     def test(self):
         '''bool = test()'''
         pass
-
 
 
 class DrawingOverride:
@@ -2434,7 +2376,6 @@ class DrawingOverride:
         pass
 
 
-
 class Drop:
     def ActionList(self, source, dest, addDropAction):
         '''ActionList(object source,object dest,object addDropAction)'''
@@ -2461,7 +2402,6 @@ class Drop:
         pass
 
 
-
 class DropPreviewDefault:
     def Draw(self):
         '''Draw()'''
@@ -2474,7 +2414,6 @@ class DropPreviewDefault:
     def test(self):
         '''bool = test()'''
         pass
-
 
 
 class Edge:
@@ -2575,7 +2514,6 @@ class Edge:
         pass
 
 
-
 class EdgePacketTranslation:
     def Item(self, packet):
         '''Item object = Item(pointer packet)'''
@@ -2606,7 +2544,6 @@ class EdgePacketTranslation:
         pass
 
 
-
 class ElementAxisPacket:
     def set(self, source):
         '''bool = set(object source)'''
@@ -2617,7 +2554,6 @@ class ElementAxisPacket:
         pass
 
 
-
 class ElementCenterPacket:
     def set(self, source):
         '''bool = set(object source)'''
@@ -2626,7 +2562,6 @@ class ElementCenterPacket:
     def test(self):
         '''bool = test()'''
         pass
-
 
 
 class Envelope:
@@ -2675,7 +2610,6 @@ class Envelope:
         pass
 
 
-
 class EvalModifier:
     def Alloc(self, item, index, eval):
         '''Unknown object = Alloc(object item,integer index,object eval)'''
@@ -2696,7 +2630,6 @@ class EvalModifier:
     def test(self):
         '''bool = test()'''
         pass
-
 
 
 class Evaluation:
@@ -2761,7 +2694,6 @@ class Evaluation:
         pass
 
 
-
 class EvaluationStack:
     def AddFilter(self, filter):
         '''AddFilter(object filter)'''
@@ -2782,7 +2714,6 @@ class EvaluationStack:
     def test(self):
         '''bool = test()'''
         pass
-
 
 
 class EventGuide:
@@ -2813,7 +2744,6 @@ class EventGuide:
     def test(self):
         '''bool = test()'''
         pass
-
 
 
 class EventTranslatePacket:
@@ -2898,7 +2828,6 @@ class EventTranslatePacket:
         pass
 
 
-
 class ExternalRender:
     def Pause(self):
         '''Pause()'''
@@ -2933,7 +2862,6 @@ class ExternalRender:
         pass
 
 
-
 class ExternalRenderNotifier:
     def SetStatusText(self, text):
         '''SetStatusText(string text)'''
@@ -2946,7 +2874,6 @@ class ExternalRenderNotifier:
     def test(self):
         '''bool = test()'''
         pass
-
 
 
 class Factory:
@@ -2987,7 +2914,6 @@ class Factory:
         pass
 
 
-
 class Falloff:
     def Bounds(self):
         '''bounds box = Bounds()'''
@@ -3010,7 +2936,6 @@ class Falloff:
         pass
 
 
-
 class FalloffPacket:
     def Screen(self, vts, x, y):
         '''float = Screen(object vts,integer x,integer y)'''
@@ -3023,7 +2948,6 @@ class FalloffPacket:
     def test(self):
         '''bool = test()'''
         pass
-
 
 
 class FileRedirect:
@@ -3054,7 +2978,6 @@ class FileRedirect:
     def test(self):
         '''bool = test()'''
         pass
-
 
 
 class FileReference:
@@ -3091,7 +3014,6 @@ class FileReference:
         pass
 
 
-
 class FileSysDest:
     def AsDir(self):
         '''string dir = AsDir()'''
@@ -3112,7 +3034,6 @@ class FileSysDest:
     def test(self):
         '''bool = test()'''
         pass
-
 
 
 class Force:
@@ -3145,7 +3066,6 @@ class Force:
         pass
 
 
-
 class GLImage:
     def SetImage(self, image):
         '''SetImage(object image)'''
@@ -3162,7 +3082,6 @@ class GLImage:
     def test(self):
         '''bool = test()'''
         pass
-
 
 
 class GLMaterial:
@@ -3215,7 +3134,6 @@ class GLMaterial:
         pass
 
 
-
 class GradientFilter:
     def Evaluate(self, time, value):
         '''float = Evaluate(float time,float value)'''
@@ -3242,7 +3160,6 @@ class GradientFilter:
         pass
 
 
-
 class GroupDeformer:
     def DeformerByIndex(self, index):
         '''Item object = DeformerByIndex(integer index)'''
@@ -3265,7 +3182,6 @@ class GroupDeformer:
         pass
 
 
-
 class GroupDest:
     def Group(self):
         '''Item object = Group()'''
@@ -3282,7 +3198,6 @@ class GroupDest:
     def test(self):
         '''bool = test()'''
         pass
-
 
 
 class GroupEnumerator:
@@ -3311,7 +3226,6 @@ class GroupEnumerator:
         pass
 
 
-
 class GroupItem:
     def Enumerator(self):
         '''GroupEnumerator object = Enumerator()'''
@@ -3324,7 +3238,6 @@ class GroupItem:
     def test(self):
         '''bool = test()'''
         pass
-
 
 
 class GroupMemberChanDest:
@@ -3349,7 +3262,6 @@ class GroupMemberChanDest:
         pass
 
 
-
 class GroupMemberItemDest:
     def Group(self):
         '''Unknown object = Group()'''
@@ -3370,7 +3282,6 @@ class GroupMemberItemDest:
     def test(self):
         '''bool = test()'''
         pass
-
 
 
 class HandleDraw:
@@ -3431,7 +3342,6 @@ class HandleDraw:
         pass
 
 
-
 class Image:
     def Components(self):
         pass
@@ -3464,7 +3374,6 @@ class Image:
         pass
 
 
-
 class ImageFilter:
     def Generate(self, width, height, monitor):
         '''Image object = Generate(integer width,integer height,object monitor)'''
@@ -3495,7 +3404,6 @@ class ImageFilter:
         pass
 
 
-
 class ImageFilterMetrics:
     def set(self, source):
         '''bool = set(object source)'''
@@ -3504,7 +3412,6 @@ class ImageFilterMetrics:
     def test(self):
         '''bool = test()'''
         pass
-
 
 
 class ImageLevelSample:
@@ -3533,7 +3440,6 @@ class ImageLevelSample:
         pass
 
 
-
 class ImageLoaderTarget:
     def SetColorspace(self, colorspace):
         '''SetColorspace(string colorspace)'''
@@ -3560,7 +3466,6 @@ class ImageLoaderTarget:
         pass
 
 
-
 class ImageMonitor:
     def AspectRange(self):
         '''(float minAspect,float maxAspect,float idealAspect) = AspectRange()'''
@@ -3570,7 +3475,8 @@ class ImageMonitor:
         '''Draw(object imageForDrawing)'''
         pass
 
-    def Image(self, imageToAnalyze, frameBufferToAnalyze, bufferIndex, x1, y1, x2, y2, imageProcessingRead, processedThumbnail):
+    def Image(self, imageToAnalyze, frameBufferToAnalyze, bufferIndex, x1, y1, x2, y2,
+              imageProcessingRead, processedThumbnail):
         '''Image(object imageToAnalyze,object frameBufferToAnalyze,integer bufferIndex,float x1,float y1,float x2,float y2,object imageProcessingRead,object processedThumbnail)'''
         pass
 
@@ -3619,7 +3525,6 @@ class ImageMonitor:
         pass
 
 
-
 class ImageProcessing:
     def ApplyToFrameBuffer(self, frameBuffer, bufferIndex):
         '''ApplyToFrameBuffer(object frameBuffer,integer bufferIndex)'''
@@ -3637,7 +3542,8 @@ class ImageProcessing:
         '''ApplyToImageFromFrameBuffer(object frameBuffer,integer bufferIndex,object image,float xOffset,float yOffset,float zoom)'''
         pass
 
-    def ApplyToImageFromFrameBufferOverride(self, frameBuffer, bufferIndex, image, xOffset, yOffset, zoom, opOverride):
+    def ApplyToImageFromFrameBufferOverride(self, frameBuffer, bufferIndex, image, xOffset, yOffset,
+                                            zoom, opOverride):
         '''ApplyToImageFromFrameBufferOverride(object frameBuffer,integer bufferIndex,object image,float xOffset,float yOffset,float zoom,integer opOverride)'''
         pass
 
@@ -4026,7 +3932,6 @@ class ImageProcessing:
         pass
 
 
-
 class ImageProcessingListener:
     def Changed(self, identifier, eventCode):
         '''Changed(string identifier,integer eventCode)'''
@@ -4043,7 +3948,6 @@ class ImageProcessingListener:
     def test(self):
         '''bool = test()'''
         pass
-
 
 
 class ImageProcessingRead:
@@ -4063,7 +3967,8 @@ class ImageProcessingRead:
         '''ApplyToImageFromFrameBuffer(object frameBuffer,integer bufferIndex,object image,float xOffset,float yOffset,float zoom)'''
         pass
 
-    def ApplyToImageFromFrameBufferOverride(self, frameBuffer, bufferIndex, image, xOffset, yOffset, zoom, opOverride):
+    def ApplyToImageFromFrameBufferOverride(self, frameBuffer, bufferIndex, image, xOffset, yOffset,
+                                            zoom, opOverride):
         '''ApplyToImageFromFrameBufferOverride(object frameBuffer,integer bufferIndex,object image,float xOffset,float yOffset,float zoom,integer opOverride)'''
         pass
 
@@ -4268,7 +4173,6 @@ class ImageProcessingRead:
         pass
 
 
-
 class ImageSegment:
     def GetSegment(self, y, left, right, rgba):
         '''GetSegment(integer y,integer left,integer right,float[] rgba)'''
@@ -4285,7 +4189,6 @@ class ImageSegment:
     def test(self):
         '''bool = test()'''
         pass
-
 
 
 class ImageWrite:
@@ -4324,7 +4227,6 @@ class ImageWrite:
         pass
 
 
-
 class IndexImage:
     def Components(self):
         pass
@@ -4361,7 +4263,6 @@ class IndexImage:
         pass
 
 
-
 class IndexImageWrite:
     def AddAttribute(self, name, type):
         '''integer index = AddAttribute(string name,string type)'''
@@ -4396,7 +4297,6 @@ class IndexImageWrite:
     def test(self):
         '''bool = test()'''
         pass
-
 
 
 class InputDeviceInstance:
@@ -4453,7 +4353,6 @@ class InputDeviceInstance:
         pass
 
 
-
 class InputDevices:
     def DeviceCount(self):
         '''integer = DeviceCount()'''
@@ -4474,7 +4373,6 @@ class InputDevices:
     def test(self):
         '''bool = test()'''
         pass
-
 
 
 class IntRange:
@@ -4525,7 +4423,6 @@ class IntRange:
     def test(self):
         '''bool = test()'''
         pass
-
 
 
 class Item:
@@ -4758,7 +4655,6 @@ class Item:
         pass
 
 
-
 class ItemChannel:
     def ChannelIndex(self):
         '''integer = ChannelIndex()'''
@@ -4775,7 +4671,6 @@ class ItemChannel:
     def test(self):
         '''bool = test()'''
         pass
-
 
 
 class ItemCollection:
@@ -4807,7 +4702,6 @@ class ItemCollection:
     def test(self):
         '''bool = test()'''
         pass
-
 
 
 class ItemGraph:
@@ -4848,7 +4742,6 @@ class ItemGraph:
         pass
 
 
-
 class ItemInfluence:
     def AllowTransform(self, index):
         '''integer flags = AllowTransform(integer index)'''
@@ -4875,7 +4768,6 @@ class ItemInfluence:
         pass
 
 
-
 class ItemListType:
     def GenerateList(self, scene, collection):
         '''GenerateList(object scene,object collection)'''
@@ -4898,7 +4790,6 @@ class ItemListType:
         pass
 
 
-
 class ItemPacketTranslation:
     def Item(self, packet):
         '''Item object = Item(pointer packet)'''
@@ -4917,7 +4808,6 @@ class ItemPacketTranslation:
         pass
 
 
-
 class ItemTypeDest:
     def Item(self):
         '''Item object = Item()'''
@@ -4934,7 +4824,6 @@ class ItemTypeDest:
     def test(self):
         '''bool = test()'''
         pass
-
 
 
 class Keyframe:
@@ -5031,7 +4920,6 @@ class Keyframe:
         pass
 
 
-
 class LayerScan:
     def Apply(self):
         '''Apply()'''
@@ -5086,7 +4974,6 @@ class LayerScan:
         pass
 
 
-
 class LayeredImage:
     def Blend(self, index):
         '''(float opacity,integer mode) = Blend(integer index)'''
@@ -5137,7 +5024,6 @@ class LayeredImage:
         pass
 
 
-
 class LayeredImageWrite:
     def AddAttribute(self, name, type):
         '''integer index = AddAttribute(string name,string type)'''
@@ -5168,7 +5054,6 @@ class LayeredImageWrite:
         pass
 
 
-
 class LightSample:
     def Vertex(self, vertex):
         '''Vertex(float[] vertex)'''
@@ -5181,7 +5066,6 @@ class LightSample:
     def test(self):
         '''bool = test()'''
         pass
-
 
 
 class Lighting:
@@ -5204,7 +5088,6 @@ class Lighting:
     def test(self):
         '''bool = test()'''
         pass
-
 
 
 class LineExecution:
@@ -5237,7 +5120,6 @@ class LineExecution:
         pass
 
 
-
 class LineInterpreter:
     def Execute(self, line, execFlags, execution):
         '''Execute(string line,integer execFlags,object execution)'''
@@ -5258,7 +5140,6 @@ class LineInterpreter:
     def test(self):
         '''bool = test()'''
         pass
-
 
 
 class LinkPacketTranslation:
@@ -5283,7 +5164,6 @@ class LinkPacketTranslation:
         pass
 
 
-
 class ListenerPort:
     def AddListener(self, object):
         '''AddListener(object object)'''
@@ -5300,7 +5180,6 @@ class ListenerPort:
     def test(self):
         '''bool = test()'''
         pass
-
 
 
 class Loader:
@@ -5333,7 +5212,6 @@ class Loader:
         pass
 
 
-
 class LoaderInfo:
     def SetClass(self, clsGUID):
         '''SetClass(string clsGUID)'''
@@ -5358,7 +5236,6 @@ class LoaderInfo:
     def test(self):
         '''bool = test()'''
         pass
-
 
 
 class Locator:
@@ -5451,7 +5328,6 @@ class Locator:
         pass
 
 
-
 class LocatorDest:
     def Item(self):
         '''Item object = Item()'''
@@ -5468,7 +5344,6 @@ class LocatorDest:
     def test(self):
         '''bool = test()'''
         pass
-
 
 
 class Log:
@@ -5527,7 +5402,6 @@ class Log:
     def test(self):
         '''bool = test()'''
         pass
-
 
 
 class LogEntry:
@@ -5624,7 +5498,6 @@ class LogEntry:
         pass
 
 
-
 class LogInfoBlock:
     def FieldCount(self):
         '''integer count = FieldCount()'''
@@ -5649,7 +5522,6 @@ class LogInfoBlock:
     def test(self):
         '''bool = test()'''
         pass
-
 
 
 class LogListener:
@@ -5688,7 +5560,6 @@ class LogListener:
     def test(self):
         '''bool = test()'''
         pass
-
 
 
 class Matrix:
@@ -5749,7 +5620,6 @@ class Matrix:
         pass
 
 
-
 class MergedDirCacheEntry:
     def EntryByIndex(self, index):
         '''DirCacheEntry object = EntryByIndex(integer index)'''
@@ -5780,7 +5650,6 @@ class MergedDirCacheEntry:
         pass
 
 
-
 class MergedFileSysDest:
     def EntryByIndex(self, index):
         '''Unknown object = EntryByIndex(integer index)'''
@@ -5805,7 +5674,6 @@ class MergedFileSysDest:
     def test(self):
         '''bool = test()'''
         pass
-
 
 
 class Mesh:
@@ -5982,7 +5850,6 @@ class Mesh:
         pass
 
 
-
 class MeshBlend:
     def BlendMesh(self, t):
         '''Unknown object = BlendMesh(float t)'''
@@ -6029,7 +5896,6 @@ class MeshBlend:
         pass
 
 
-
 class MeshDest:
     def HitNormal(self):
         '''vector nrm = HitNormal()'''
@@ -6050,7 +5916,6 @@ class MeshDest:
     def test(self):
         '''bool = test()'''
         pass
-
 
 
 class MeshElementGroup:
@@ -6087,7 +5952,6 @@ class MeshElementGroup:
         pass
 
 
-
 class MeshFilter:
     def Evaluate(self, mesh, tracker):
         '''Evaluate(object mesh,object tracker)'''
@@ -6110,7 +5974,6 @@ class MeshFilter:
         pass
 
 
-
 class MeshFilterBBox:
     def Evaluate(self):
         '''bounds box = Evaluate()'''
@@ -6123,7 +5986,6 @@ class MeshFilterBBox:
     def test(self):
         '''bool = test()'''
         pass
-
 
 
 class MeshFilterBlend:
@@ -6144,7 +6006,6 @@ class MeshFilterBlend:
         pass
 
 
-
 class MeshFilterIdent:
     def Generate(self, ident):
         '''Mesh object = Generate(string ident)'''
@@ -6157,7 +6018,6 @@ class MeshFilterIdent:
     def test(self):
         '''bool = test()'''
         pass
-
 
 
 class MeshInfluence:
@@ -6194,7 +6054,6 @@ class MeshInfluence:
         pass
 
 
-
 class MeshLayerPreDest:
     def Mesh(self):
         '''Mesh object = Mesh()'''
@@ -6215,7 +6074,6 @@ class MeshLayerPreDest:
     def test(self):
         '''bool = test()'''
         pass
-
 
 
 class MeshMap:
@@ -6312,7 +6170,6 @@ class MeshMap:
         pass
 
 
-
 class MeshOpDest:
     def Graph(self):
         '''string = Graph()'''
@@ -6337,7 +6194,6 @@ class MeshOpDest:
     def test(self):
         '''bool = test()'''
         pass
-
 
 
 class MeshOperation:
@@ -6376,7 +6232,6 @@ class MeshOperation:
     def test(self):
         '''bool = test()'''
         pass
-
 
 
 class MeshTracker:
@@ -6441,7 +6296,6 @@ class MeshTracker:
         pass
 
 
-
 class MeshXtraData:
     def ClearPoint(self, point):
         '''ClearPoint(id point)'''
@@ -6482,7 +6336,6 @@ class MeshXtraData:
     def test(self):
         '''bool = test()'''
         pass
-
 
 
 class Message:
@@ -6542,7 +6395,6 @@ class Message:
         pass
 
 
-
 class Modifier:
     def Evaluate(self):
         '''Evaluate()'''
@@ -6581,7 +6433,6 @@ class Modifier:
         pass
 
 
-
 class Module:
     def Generate(self, name, iid):
         '''Unknown object = Generate(string name,string iid)'''
@@ -6598,7 +6449,6 @@ class Module:
     def test(self):
         '''bool = test()'''
         pass
-
 
 
 class Monitor:
@@ -6623,7 +6473,6 @@ class Monitor:
     def test(self):
         '''bool = test()'''
         pass
-
 
 
 class NavigationListener:
@@ -6664,7 +6513,6 @@ class NavigationListener:
         pass
 
 
-
 class NeedContext:
     def SetContext(self, app):
         '''SetContext(object app)'''
@@ -6677,7 +6525,6 @@ class NeedContext:
     def test(self):
         '''bool = test()'''
         pass
-
 
 
 class NodePacketTranslation:
@@ -6696,7 +6543,6 @@ class NodePacketTranslation:
     def test(self):
         '''bool = test()'''
         pass
-
 
 
 class Notifier:
@@ -6729,7 +6575,6 @@ class Notifier:
         pass
 
 
-
 class Package:
     def Attach(self):
         '''Unknown object = Attach()'''
@@ -6758,7 +6603,6 @@ class Package:
     def test(self):
         '''bool = test()'''
         pass
-
 
 
 class PackageInstance:
@@ -6815,7 +6659,6 @@ class PackageInstance:
         pass
 
 
-
 class PacketEffect:
     def ByIndex(self, index):
         '''(string name,string typeName,integer type) = ByIndex(integer index)'''
@@ -6846,7 +6689,6 @@ class PacketEffect:
         pass
 
 
-
 class PaintBrushPacket:
     def BBox(self, toolVector, center, size):
         '''(integer,bounds bbox) = BBox(object toolVector,vector center,float size)'''
@@ -6873,7 +6715,6 @@ class PaintBrushPacket:
         pass
 
 
-
 class PaintInkPacket:
     def Color(self, toolVector, flags):
         '''(integer,vector rgba) = Color(object toolVector,integer flags)'''
@@ -6890,7 +6731,6 @@ class PaintInkPacket:
     def test(self):
         '''bool = test()'''
         pass
-
 
 
 class PaintNozzlePacket:
@@ -6913,7 +6753,6 @@ class PaintNozzlePacket:
     def test(self):
         '''bool = test()'''
         pass
-
 
 
 class ParticleCoOperator:
@@ -6940,7 +6779,6 @@ class ParticleCoOperator:
     def test(self):
         '''bool = test()'''
         pass
-
 
 
 class ParticleEvalFrame:
@@ -6989,7 +6827,6 @@ class ParticleEvalFrame:
         pass
 
 
-
 class ParticleFilter:
     def Cleanup(self):
         '''Cleanup()'''
@@ -7028,7 +6865,6 @@ class ParticleFilter:
         pass
 
 
-
 class ParticleGeneratorPacket:
     def Count(self, vts):
         '''integer = Count(object vts)'''
@@ -7041,7 +6877,6 @@ class ParticleGeneratorPacket:
     def test(self):
         '''bool = test()'''
         pass
-
 
 
 class ParticleItem:
@@ -7060,7 +6895,6 @@ class ParticleItem:
     def test(self):
         '''bool = test()'''
         pass
-
 
 
 class PathGeneratorPacket:
@@ -7105,7 +6939,6 @@ class PathGeneratorPacket:
         pass
 
 
-
 class PathStep:
     def CleanUp(self):
         '''CleanUp()'''
@@ -7128,7 +6961,6 @@ class PathStep:
         pass
 
 
-
 class Pattern:
     def GenerateSequenceString(self, start, end):
         '''string = GenerateSequenceString(integer start,integer end)'''
@@ -7145,7 +6977,6 @@ class Pattern:
     def test(self):
         '''bool = test()'''
         pass
-
 
 
 class PersistenceClient:
@@ -7168,7 +6999,6 @@ class PersistenceClient:
     def test(self):
         '''bool = test()'''
         pass
-
 
 
 class PersistentEntry:
@@ -7213,7 +7043,6 @@ class PersistentEntry:
         pass
 
 
-
 class PivotPacketTranslation:
     def Item(self, packet):
         '''Item object = Item(pointer packet)'''
@@ -7234,7 +7063,6 @@ class PivotPacketTranslation:
     def test(self):
         '''bool = test()'''
         pass
-
 
 
 class Point:
@@ -7367,7 +7195,6 @@ class Point:
         pass
 
 
-
 class PointCacheItem:
     def Cleanup(self):
         '''Cleanup()'''
@@ -7392,7 +7219,6 @@ class PointCacheItem:
     def test(self):
         '''bool = test()'''
         pass
-
 
 
 class Polygon:
@@ -7613,7 +7439,6 @@ class Polygon:
         pass
 
 
-
 class PolygonPacketTranslation:
     def Item(self, packet):
         '''Item object = Item(pointer packet)'''
@@ -7638,7 +7463,6 @@ class PolygonPacketTranslation:
     def test(self):
         '''bool = test()'''
         pass
-
 
 
 class PolygonSlice:
@@ -7671,7 +7495,6 @@ class PolygonSlice:
         pass
 
 
-
 class PresetBrowserSource:
     def ViewportHash(self):
         '''string = ViewportHash()'''
@@ -7684,7 +7507,6 @@ class PresetBrowserSource:
     def test(self):
         '''bool = test()'''
         pass
-
 
 
 class PresetDo:
@@ -7703,7 +7525,6 @@ class PresetDo:
     def test(self):
         '''bool = test()'''
         pass
-
 
 
 class PresetLoaderTarget:
@@ -7726,7 +7547,6 @@ class PresetLoaderTarget:
     def test(self):
         '''bool = test()'''
         pass
-
 
 
 class PresetMetrics:
@@ -7763,7 +7583,6 @@ class PresetMetrics:
         pass
 
 
-
 class PresetPathPacketTranslation:
     def Identifier(self, packet):
         '''string identifier = Identifier(pointer packet)'''
@@ -7784,7 +7603,6 @@ class PresetPathPacketTranslation:
     def test(self):
         '''bool = test()'''
         pass
-
 
 
 class PresetType:
@@ -7835,7 +7653,6 @@ class PresetType:
     def test(self):
         '''bool = test()'''
         pass
-
 
 
 class Preview:
@@ -7944,7 +7761,6 @@ class Preview:
         pass
 
 
-
 class PreviewNotifier:
     def set(self, source):
         '''bool = set(object source)'''
@@ -7953,7 +7769,6 @@ class PreviewNotifier:
     def test(self):
         '''bool = test()'''
         pass
-
 
 
 class Profile1DPreDest:
@@ -8002,7 +7817,6 @@ class Profile1DPreDest:
         pass
 
 
-
 class Profile2DPreDest:
     def Box(self):
         '''bounds box = Box()'''
@@ -8045,7 +7859,6 @@ class Profile2DPreDest:
         pass
 
 
-
 class ProjDirOverride:
     def OverrideWith(self, originalPath):
         '''string = OverrideWith(string originalPath)'''
@@ -8058,7 +7871,6 @@ class ProjDirOverride:
     def test(self):
         '''bool = test()'''
         pass
-
 
 
 class ProxyOptions:
@@ -8085,7 +7897,6 @@ class ProxyOptions:
     def test(self):
         '''bool = test()'''
         pass
-
 
 
 class Quaternion:
@@ -8122,7 +7933,6 @@ class Quaternion:
         pass
 
 
-
 class Raycast:
     def GetSurfaceType(self, vector):
         '''integer = GetSurfaceType(object vector)'''
@@ -8153,7 +7963,6 @@ class Raycast:
         pass
 
 
-
 class RaycastPacket:
     def set(self, source):
         '''bool = set(object source)'''
@@ -8162,7 +7971,6 @@ class RaycastPacket:
     def test(self):
         '''bool = test()'''
         pass
-
 
 
 class Raymarch:
@@ -8185,7 +7993,6 @@ class Raymarch:
     def test(self):
         '''bool = test()'''
         pass
-
 
 
 class RenderJob:
@@ -8273,7 +8080,8 @@ class RenderJob:
         '''ProgressRenderPassBegin(integer frameIndex,integer renderPassIndex,string renderPassName,integer eye)'''
         pass
 
-    def ProgressRenderPassEnd(self, frame, renderPassIndex, renderPassName, eye, frameBuffer, stats):
+    def ProgressRenderPassEnd(self, frame, renderPassIndex, renderPassName, eye, frameBuffer,
+                              stats):
         '''ProgressRenderPassEnd(integer frame,integer renderPassIndex,string renderPassName,integer eye,object frameBuffer,object stats)'''
         pass
 
@@ -8350,7 +8158,6 @@ class RenderJob:
         pass
 
 
-
 class RenderProgressListener:
     def Begin(self):
         '''Begin()'''
@@ -8367,7 +8174,6 @@ class RenderProgressListener:
     def test(self):
         '''bool = test()'''
         pass
-
 
 
 class RenderStats:
@@ -8398,7 +8204,6 @@ class RenderStats:
     def test(self):
         '''bool = test()'''
         pass
-
 
 
 class ReplicatorEnumerator:
@@ -8443,7 +8248,6 @@ class ReplicatorEnumerator:
         pass
 
 
-
 class Saver:
     def Save(self, source, filename, monitor):
         '''Save(object source,string filename,object monitor)'''
@@ -8460,7 +8264,6 @@ class Saver:
     def test(self):
         '''bool = test()'''
         pass
-
 
 
 class Scene:
@@ -8687,7 +8490,6 @@ class Scene:
         pass
 
 
-
 class SceneContents:
     def AddLink(self, type, internal_name, user_name):
         '''AddLink(integer type,string internal_name,string user_name)'''
@@ -8746,7 +8548,6 @@ class SceneContents:
         pass
 
 
-
 class SceneEvalListener:
     def ChannelPostValue(self):
         '''ChannelPostValue()'''
@@ -8767,7 +8568,6 @@ class SceneEvalListener:
     def test(self):
         '''bool = test()'''
         pass
-
 
 
 class SceneGraph:
@@ -8810,7 +8610,6 @@ class SceneGraph:
     def test(self):
         '''bool = test()'''
         pass
-
 
 
 class SceneItemListener:
@@ -8943,7 +8742,6 @@ class SceneItemListener:
         pass
 
 
-
 class SceneItemPreDest:
     def ContainerItem(self):
         '''Item object = ContainerItem()'''
@@ -8974,7 +8772,6 @@ class SceneItemPreDest:
         pass
 
 
-
 class SceneLoaderTarget:
     def ClearFlags(self, flags):
         '''ClearFlags(integer flags)'''
@@ -8997,7 +8794,6 @@ class SceneLoaderTarget:
         pass
 
 
-
 class ScenePacketTranslation:
     def Packet(self, scene):
         '''pointer = Packet(object scene)'''
@@ -9016,7 +8812,6 @@ class ScenePacketTranslation:
         pass
 
 
-
 class SceneSubset:
     def GetCollection(self):
         '''ItemCollection object = GetCollection()'''
@@ -9033,7 +8828,6 @@ class SceneSubset:
     def test(self):
         '''bool = test()'''
         pass
-
 
 
 class SchemaDest:
@@ -9076,7 +8870,6 @@ class SchemaDest:
     def test(self):
         '''bool = test()'''
         pass
-
 
 
 class SchematicConnection:
@@ -9133,7 +8926,6 @@ class SchematicConnection:
         pass
 
 
-
 class SchematicGroup:
     def AddItem(self, item):
         '''SchematicNode object = AddItem(object item)'''
@@ -9174,7 +8966,6 @@ class SchematicGroup:
     def test(self):
         '''bool = test()'''
         pass
-
 
 
 class SchematicNode:
@@ -9255,7 +9046,6 @@ class SchematicNode:
         pass
 
 
-
 class Script:
     def Desc(self):
         '''string desc = Desc()'''
@@ -9306,7 +9096,6 @@ class Script:
         pass
 
 
-
 class ScriptLineEvent:
     def Index(self):
         '''integer index = Index()'''
@@ -9323,7 +9112,6 @@ class ScriptLineEvent:
     def test(self):
         '''bool = test()'''
         pass
-
 
 
 class ScriptManager:
@@ -9376,7 +9164,6 @@ class ScriptManager:
         pass
 
 
-
 class ScriptQuery:
     def Query(self, attribute, query):
         '''Query(string attribute,object query)'''
@@ -9401,7 +9188,6 @@ class ScriptQuery:
     def test(self):
         '''bool = test()'''
         pass
-
 
 
 class SelectionListener:
@@ -9432,7 +9218,6 @@ class SelectionListener:
     def test(self):
         '''bool = test()'''
         pass
-
 
 
 class SelectionOperation:
@@ -9469,7 +9254,6 @@ class SelectionOperation:
         pass
 
 
-
 class SelectionState:
     def SetEdge(self, edge, state):
         '''SetEdge(id edge,integer state)'''
@@ -9504,7 +9288,6 @@ class SelectionState:
         pass
 
 
-
 class SelectionType:
     def Compare(self, pkey, pelt):
         '''integer = Compare(pointer pkey,pointer pelt)'''
@@ -9533,7 +9316,6 @@ class SelectionType:
     def test(self):
         '''bool = test()'''
         pass
-
 
 
 class SessionListener:
@@ -9574,7 +9356,6 @@ class SessionListener:
         pass
 
 
-
 class Shader:
     def Enumerate(self, visitor):
         '''Enumerate(object visitor)'''
@@ -9595,7 +9376,6 @@ class Shader:
     def test(self):
         '''bool = test()'''
         pass
-
 
 
 class ShaderPreDest:
@@ -9632,7 +9412,6 @@ class ShaderPreDest:
         pass
 
 
-
 class ShaderSlice:
     def Evaluate(self, vecstack):
         '''Evaluate(object vecstack)'''
@@ -9645,7 +9424,6 @@ class ShaderSlice:
     def test(self):
         '''bool = test()'''
         pass
-
 
 
 class ShapeDraw:
@@ -9810,7 +9588,6 @@ class ShapeDraw:
         pass
 
 
-
 class SimulationListener:
     def End(self):
         '''End()'''
@@ -9835,7 +9612,6 @@ class SimulationListener:
     def test(self):
         '''bool = test()'''
         pass
-
 
 
 class SimulationModifier:
@@ -9872,7 +9648,6 @@ class SimulationModifier:
         pass
 
 
-
 class SolidDrill:
     def AddMesh(self, meshObj, xfrm):
         '''AddMesh(object meshObj,matrix xfrm)'''
@@ -9893,7 +9668,6 @@ class SolidDrill:
     def test(self):
         '''bool = test()'''
         pass
-
 
 
 class StackFilter:
@@ -9922,7 +9696,6 @@ class StackFilter:
         pass
 
 
-
 class StreamIO:
     def Read(self, stream):
         '''Read(object stream)'''
@@ -9939,7 +9712,6 @@ class StreamIO:
     def test(self):
         '''bool = test()'''
         pass
-
 
 
 class StringConversion:
@@ -9960,7 +9732,6 @@ class StringConversion:
         pass
 
 
-
 class StringConversionNice:
     def Decode(self, buf):
         '''Decode(string buf)'''
@@ -9977,7 +9748,6 @@ class StringConversionNice:
     def test(self):
         '''bool = test()'''
         pass
-
 
 
 class StringTag:
@@ -10004,7 +9774,6 @@ class StringTag:
     def test(self):
         '''bool = test()'''
         pass
-
 
 
 class StrokeDraw:
@@ -10073,7 +9842,6 @@ class StrokeDraw:
         pass
 
 
-
 class Subject2Packet:
     def ScanAllocate(self, flags):
         '''LayerScan object = ScanAllocate(integer flags)'''
@@ -10090,7 +9858,6 @@ class Subject2Packet:
     def test(self):
         '''bool = test()'''
         pass
-
 
 
 class Surface:
@@ -10131,7 +9898,6 @@ class Surface:
         pass
 
 
-
 class SurfaceBin:
     def FrontBBox(self, pos, dir):
         '''bounds bbox = FrontBBox(vector pos,vector dir)'''
@@ -10148,7 +9914,6 @@ class SurfaceBin:
     def test(self):
         '''bool = test()'''
         pass
-
 
 
 class SurfaceItem:
@@ -10171,7 +9936,6 @@ class SurfaceItem:
     def test(self):
         '''bool = test()'''
         pass
-
 
 
 class SymmetryPacket:
@@ -10206,7 +9970,6 @@ class SymmetryPacket:
     def test(self):
         '''bool = test()'''
         pass
-
 
 
 class Tableau:
@@ -10271,7 +10034,6 @@ class Tableau:
         pass
 
 
-
 class TableauElement:
     def Bound(self):
         '''bounds bbox = Bound()'''
@@ -10296,7 +10058,6 @@ class TableauElement:
     def test(self):
         '''bool = test()'''
         pass
-
 
 
 class TableauInstance:
@@ -10327,7 +10088,6 @@ class TableauInstance:
     def test(self):
         '''bool = test()'''
         pass
-
 
 
 class TableauLight:
@@ -10368,7 +10128,6 @@ class TableauLight:
         pass
 
 
-
 class TableauProxy:
     def Bound(self):
         '''bounds bbox = Bound()'''
@@ -10399,7 +10158,6 @@ class TableauProxy:
         pass
 
 
-
 class TableauShader:
     def Select(self, teElt, tvDesc):
         '''Select(object teElt,object tvDesc)'''
@@ -10416,7 +10174,6 @@ class TableauShader:
     def test(self):
         '''bool = test()'''
         pass
-
 
 
 class TableauSource:
@@ -10457,7 +10214,6 @@ class TableauSource:
         pass
 
 
-
 class TableauSurface:
     def Bound(self):
         '''bounds bbox = Bound()'''
@@ -10496,7 +10252,6 @@ class TableauSurface:
         pass
 
 
-
 class TableauVertex:
     def AddFeature(self, type, name):
         '''integer index = AddFeature(integer type,string name)'''
@@ -10525,7 +10280,6 @@ class TableauVertex:
     def test(self):
         '''bool = test()'''
         pass
-
 
 
 class TableauVolume:
@@ -10574,7 +10328,6 @@ class TableauVolume:
         pass
 
 
-
 class TagDescription:
     def Count(self):
         '''integer = Count()'''
@@ -10587,7 +10340,6 @@ class TagDescription:
     def test(self):
         '''bool = test()'''
         pass
-
 
 
 class TextEncoding:
@@ -10632,7 +10384,6 @@ class TextEncoding:
         pass
 
 
-
 class TextScriptInterpreter:
     def Run(self, script, execFlags, args, msg):
         '''Run(object script,integer execFlags,string args,object msg)'''
@@ -10653,7 +10404,6 @@ class TextScriptInterpreter:
     def test(self):
         '''bool = test()'''
         pass
-
 
 
 class Texture:
@@ -10706,7 +10456,6 @@ class Texture:
         pass
 
 
-
 class TextureEffect:
     def Get(self, sv, item):
         '''float val = Get(object sv,pointer item)'''
@@ -10733,7 +10482,6 @@ class TextureEffect:
         pass
 
 
-
 class TexturePacket:
     def set(self, source):
         '''bool = set(object source)'''
@@ -10742,7 +10490,6 @@ class TexturePacket:
     def test(self):
         '''bool = test()'''
         pass
-
 
 
 class TileImage:
@@ -10777,7 +10524,6 @@ class TileImage:
     def test(self):
         '''bool = test()'''
         pass
-
 
 
 class Tool:
@@ -10828,7 +10574,6 @@ class Tool:
     def test(self):
         '''bool = test()'''
         pass
-
 
 
 class ToolModel:
@@ -10909,7 +10654,6 @@ class ToolModel:
         pass
 
 
-
 class ToolOperation:
     def Blend(self, other, blend):
         '''Blend(object other,object blend)'''
@@ -10930,7 +10674,6 @@ class ToolOperation:
     def test(self):
         '''bool = test()'''
         pass
-
 
 
 class TransformScan:
@@ -10969,7 +10712,6 @@ class TransformScan:
     def test(self):
         '''bool = test()'''
         pass
-
 
 
 class Tree:
@@ -11026,7 +10768,6 @@ class Tree:
         pass
 
 
-
 class TreeListener:
     def ClearAllCachedThumbnails(self):
         '''ClearAllCachedThumbnails()'''
@@ -11059,7 +10800,6 @@ class TreeListener:
     def test(self):
         '''bool = test()'''
         pass
-
 
 
 class TreeView:
@@ -11196,7 +10936,6 @@ class TreeView:
         pass
 
 
-
 class TriangleGroup:
     def AddSurface(self):
         '''TriangleSurface object = AddSurface()'''
@@ -11217,7 +10956,6 @@ class TriangleGroup:
     def test(self):
         '''bool = test()'''
         pass
-
 
 
 class TriangleSoup:
@@ -11248,7 +10986,6 @@ class TriangleSoup:
     def test(self):
         '''bool = test()'''
         pass
-
 
 
 class TriangleSurface:
@@ -11303,7 +11040,6 @@ class TriangleSurface:
     def test(self):
         '''bool = test()'''
         pass
-
 
 
 class UIHints:
@@ -11408,7 +11144,6 @@ class UIHints:
         pass
 
 
-
 class UIValueHints:
     def ColorPickerCommands(self, rgb, alpha, rgbAlt, alphaAlt, useAlt, bufLens):
         '''ColorPickerCommands(byte[] rgb,byte[] alpha,byte[] rgbAlt,byte[] alphaAlt,byte[] useAlt,integer bufLens)'''
@@ -11491,7 +11226,6 @@ class UIValueHints:
         pass
 
 
-
 class Undo:
     def Forward(self):
         '''Forward()'''
@@ -11508,7 +11242,6 @@ class Undo:
     def test(self):
         '''bool = test()'''
         pass
-
 
 
 class UserValue:
@@ -11617,7 +11350,6 @@ class UserValue:
         pass
 
 
-
 class UserValueListener:
     def Added(self, userValue):
         '''Added(object userValue)'''
@@ -11644,7 +11376,6 @@ class UserValueListener:
         pass
 
 
-
 class VMapPacketTranslation:
     def Name(self, packet):
         '''string name = Name(pointer packet)'''
@@ -11665,7 +11396,6 @@ class VMapPacketTranslation:
     def test(self):
         '''bool = test()'''
         pass
-
 
 
 class Value:
@@ -11734,7 +11464,6 @@ class Value:
     def test(self):
         '''bool = test()'''
         pass
-
 
 
 class ValueArray:
@@ -11823,7 +11552,6 @@ class ValueArray:
         pass
 
 
-
 class ValueConversion:
     def Convert(self, from_obj, fromType, to_obj, toType):
         '''Convert(object from_obj,string fromType,object to_obj,string toType)'''
@@ -11840,7 +11568,6 @@ class ValueConversion:
     def test(self):
         '''bool = test()'''
         pass
-
 
 
 class ValueMath:
@@ -11873,7 +11600,6 @@ class ValueMath:
         pass
 
 
-
 class ValueReference:
     def GetObject(self):
         '''Unknown object = GetObject()'''
@@ -11894,7 +11620,6 @@ class ValueReference:
     def test(self):
         '''bool = test()'''
         pass
-
 
 
 class ValueTexture:
@@ -11931,7 +11656,6 @@ class ValueTexture:
         pass
 
 
-
 class ValueTextureCustom:
     def AddFeature(self, type, name):
         '''AddFeature(integer type,string name)'''
@@ -11948,7 +11672,6 @@ class ValueTextureCustom:
     def test(self):
         '''bool = test()'''
         pass
-
 
 
 class Variation:
@@ -11985,7 +11708,6 @@ class Variation:
         pass
 
 
-
 class VectorCanvas:
     def BeginEditBatch(self):
         '''BeginEditBatch()'''
@@ -12006,7 +11728,6 @@ class VectorCanvas:
     def test(self):
         '''bool = test()'''
         pass
-
 
 
 class VectorKnotPacketTranslation:
@@ -12033,7 +11754,6 @@ class VectorKnotPacketTranslation:
     def test(self):
         '''bool = test()'''
         pass
-
 
 
 class VectorList:
@@ -12074,7 +11794,6 @@ class VectorList:
         pass
 
 
-
 class VectorListener:
     def Destroy(self):
         '''Destroy()'''
@@ -12111,7 +11830,6 @@ class VectorListener:
     def test(self):
         '''bool = test()'''
         pass
-
 
 
 class VectorPath:
@@ -12156,7 +11874,6 @@ class VectorPath:
         pass
 
 
-
 class VectorPathPacketTranslation:
     def Canvas(self, packet):
         '''VectorCanvas object = Canvas(pointer packet)'''
@@ -12185,7 +11902,6 @@ class VectorPathPacketTranslation:
     def test(self):
         '''bool = test()'''
         pass
-
 
 
 class VectorShape:
@@ -12222,7 +11938,6 @@ class VectorShape:
         pass
 
 
-
 class VectorShapePacketTranslation:
     def Canvas(self, packet):
         '''VectorCanvas object = Canvas(pointer packet)'''
@@ -12247,7 +11962,6 @@ class VectorShapePacketTranslation:
     def test(self):
         '''bool = test()'''
         pass
-
 
 
 class VectorStack:
@@ -12276,7 +11990,6 @@ class VectorStack:
         pass
 
 
-
 class VectorType:
     def ByIndex(self, type, index):
         '''(integer,integer flags) = ByIndex(integer type,integer index)'''
@@ -12301,7 +12014,6 @@ class VectorType:
     def test(self):
         '''bool = test()'''
         pass
-
 
 
 class VertexPacketTranslation:
@@ -12334,7 +12046,6 @@ class VertexPacketTranslation:
         pass
 
 
-
 class VideoClipItem:
     def AllocFilter(self, attr, cache):
         '''ImageFilter object = AllocFilter(object attr,pointer cache)'''
@@ -12351,7 +12062,6 @@ class VideoClipItem:
     def test(self):
         '''bool = test()'''
         pass
-
 
 
 class View:
@@ -12442,7 +12152,6 @@ class View:
     def test(self):
         '''bool = test()'''
         pass
-
 
 
 class View3D:
@@ -12563,7 +12272,6 @@ class View3D:
         pass
 
 
-
 class ViewItem3D:
     def Draw(self, chanRead, strokeDraw, selectionFlags, itemColor):
         '''Draw(object chanRead,object strokeDraw,integer selectionFlags,vector itemColor)'''
@@ -12610,7 +12318,6 @@ class ViewItem3D:
         pass
 
 
-
 class ViewObject:
     def ByIndex(self, type, index):
         '''ViewObject object = ByIndex(integer type,integer index)'''
@@ -12643,7 +12350,6 @@ class ViewObject:
     def test(self):
         '''bool = test()'''
         pass
-
 
 
 class VirtualDevice:
@@ -12688,7 +12394,6 @@ class VirtualDevice:
         pass
 
 
-
 class VirtualModel:
     def Down(self, vts):
         '''Down(object vts)'''
@@ -12731,7 +12436,6 @@ class VirtualModel:
         pass
 
 
-
 class Visitor:
     def Evaluate(self):
         '''Evaluate()'''
@@ -12744,7 +12448,6 @@ class Visitor:
     def test(self):
         '''bool = test()'''
         pass
-
 
 
 class WeightMapDeformerItem:
@@ -12763,6 +12466,3 @@ class WeightMapDeformerItem:
     def test(self):
         '''bool = test()'''
         pass
-
-
-
