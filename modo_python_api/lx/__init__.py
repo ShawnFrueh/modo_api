@@ -9,7 +9,6 @@ import service
 import symbol
 
 
-
 class Monitor:
     def init(self):
         '''Initialize the monitor with the total number of steps'''
@@ -18,7 +17,6 @@ class Monitor:
     def step(self):
         '''Increment the monitor by one or by step it by an arbitrary amount'''
         pass
-
 
 
 class Service:
@@ -43,14 +41,15 @@ class Service:
         pass
 
 
-
 def arg():
     '''Get the argument string for the script.'''
     pass
 
+
 def args():
     '''Get the parsed argument tuple for the script.'''
     pass
+
 
 def bless(cls, name, tags=None, meta=None):
     '''Export a class as a server object:
@@ -69,65 +68,81 @@ tag[key] = value pairs. The metaclass is passed as argument to the
 __init__() method, providing global state to customize the class.'''
     pass
 
+
 def command(cmd, **kwargs):
     '''Execute a command with a variable argument list.'''
     pass
+
 
 def eval(command):
     '''Evaluate a command string.'''
     pass
 
+
 def eval1():
     '''Evaluate a command string, returning a single value.'''
     pass
+
 
 def evalN():
     '''Evaluate a command string, returning a tuple.'''
     pass
 
+
 def excResult():
     '''Get the exception as an LxResult code.'''
     pass
+
 
 def extract():
     '''Extract the Python object referenced from a COM object wrapper.'''
     pass
 
+
 def getQWidget():
     '''Converts a PyLong object to a PySide QWidget'''
     pass
+
 
 def lastResult():
     '''Get the result code from the last service or object method called.'''
     pass
 
+
 def notimpl():
     '''Raise 'not implemented' exception.'''
     pass
+
 
 def option():
     '''Get the current state of an option'''
     pass
 
+
 def out():
     '''Output to log.'''
     pass
+
 
 def outEx():
     '''Output the exception state to the log.'''
     pass
 
+
 def queryToggle():
     '''Query a command with a ToggleValue style argument.'''
     pass
+
 
 def setOption():
     '''Set options that affect how the lx methods act'''
     pass
 
+
 def test():
     '''Test the state of a toggle argument.'''
     pass
+
 
 def testifc():
     '''Test an interface GUID against a class:
@@ -135,13 +150,14 @@ def testifc():
         ok = lx.testifc(cls, guid, [meta])'''
     pass
 
+
 def throw(code, quiet=False):
     '''Raise a result code exception.
 
        lx.throw(code, [quiet])'''
     pass
 
+
 def trace():
     '''Toggle extra Event Log output for each lx function call.'''
     pass
-

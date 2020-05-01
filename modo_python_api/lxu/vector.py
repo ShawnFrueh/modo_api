@@ -2,33 +2,41 @@
  MODO Build #569521
 '''
 
+
 def add(a, b):
     '''result = a + b'''
     pass
+
 
 def cross(a, b):
     '''result = a x b'''
     pass
 
+
 def dot(a, b):
     '''result = a . b'''
     pass
+
 
 def length(v):
     '''result = sqrt (v . v)'''
     pass
 
+
 def normalize(v):
     '''result = a / length(a)'''
     pass
+
 
 def scale(v, s):
     '''result = v * s'''
     pass
 
+
 def sub(a, b):
     '''result = a - b'''
     pass
+
 
 def vector():
     '''Return a 3-vector (tuple of three values):
@@ -38,4 +46,3 @@ def vector():
 
     '''
     pass
-

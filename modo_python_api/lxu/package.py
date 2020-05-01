@@ -2,6 +2,7 @@
  MODO Build #569521
 '''
 
+
 class BasicItemBehaviors:
     def add(self, item):
         pass
@@ -28,10 +29,9 @@ class BasicItemBehaviors:
         pass
 
 
-
 class BasicPackage:
     def __init__(self):
-        self.acts = NoneType()
+        self.acts = None
 
     def pkg_Attach(self):
         pass
@@ -47,7 +47,6 @@ class BasicPackage:
 
     def pkg_TestInterface(self, guid):
         pass
-
 
 
 class BasicPackageInstance:
@@ -85,7 +84,6 @@ class BasicPackageInstance:
         pass
 
 
-
 class DefaultPackage:
     def pkg_Attach(self):
         pass
@@ -101,7 +99,6 @@ class DefaultPackage:
 
     def pkg_TestInterface(self, guid):
         pass
-
 
 
 class DefaultPackageInstance:
@@ -137,6 +134,3 @@ class DefaultPackageInstance:
 
     def pins_TestParent(self, item):
         pass
-
-
-

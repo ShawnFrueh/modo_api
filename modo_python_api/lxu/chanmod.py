@@ -2,10 +2,10 @@
  MODO Build #569521
 '''
 
+
 class InternalChanModOperator:
     def cmop_Evaluate(self):
         pass
-
 
 
 class MetaPackage:
@@ -37,7 +37,6 @@ class MetaPackage:
         pass
 
 
-
 class Operator:
     def eval(self, chans):
         '''The eval() method reads from input channels and writes to output channels.
@@ -58,10 +57,8 @@ class Operator:
         pass
 
 
-
 def bless_server(classref, name):
     '''This is a replacement for blessing channel modifier classes that just provides
        standard tags.
     '''
     pass
-
